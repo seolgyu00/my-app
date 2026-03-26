@@ -71,7 +71,7 @@ jobs:
       # container 실행
       - name: Deploy on server using DockerHub image
         run: |
-          ssh ubuntu@3.39.6.173 << 'EOF'
+          ssh ubuntu@43.203.212.103 << 'EOF'
             docker stop spring-my-app || true
             docker rm spring-my-app || true
             docker pull ${{ secrets.DOCKERHUB_USERNAME }}/spring-my-app:latest
