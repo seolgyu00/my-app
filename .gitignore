@@ -1,5 +1,5 @@
 config/
-!src/main/resources/application.properties
+
 !com/sp/app/config/
 !com/sp/app/config/**
 
